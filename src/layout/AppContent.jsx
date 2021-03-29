@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Route, Switch } from "react-router";
 
 const AppContent = () => {
   return (
@@ -29,7 +30,9 @@ const AppContent = () => {
           className="flex-1 relative z-0 overflow-y-auto focus:outline-none"
           tabindex="0"
         >
-          
+          <Switch>
+            <Route />
+          </Switch>
         </main>
       </div>
     </Fragment>

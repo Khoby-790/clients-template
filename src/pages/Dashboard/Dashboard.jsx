@@ -8,7 +8,7 @@ const Dashboard = () => {
         <div className="flex-1 flex flex-col px-3">
           <div className="flex w-full justify-between py-3">
             <div>
-              <h1 className="font-semibold text-2xl">Clients</h1>
+              <h1 className="font-semibold font-serif text-2xl">Clients</h1>
             </div>
             <div className="flex">
               <button className="bg-gray-400 outline-none focus:outline-none p-1 rounded shadow-md">

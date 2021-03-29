@@ -5,7 +5,7 @@ const Dashboard = () => {
     <Fragment>
       <div className="flex h-full">
         <div className="w-64 border-r h-full bg-gray-200"></div>
-        <div className="flex-1 flex flex-col px-3">
+        <div className="flex-1 flex flex-col px-5  pt-5">
           <div className="flex w-full justify-between py-3">
             <div>
               <h1 className="font-semibold font-serif text-2xl">Clients</h1>

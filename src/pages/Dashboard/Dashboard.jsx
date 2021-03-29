@@ -9,9 +9,9 @@ const Dashboard = () => {
           <div className="flex w-full justify-between py-3">
             <div></div>
             <div className="flex">
-              <button className="bg-gray-400 p-3">
+              <button className="bg-gray-400 outline-none p-1 rounded shadow-md">
                 <svg
-                className="h-6 w-6"
+                className="h-6 w-6 text-gray-600"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

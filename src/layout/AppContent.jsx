@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Route, Switch } from "react-router";
+import Dashboard from "../pages/Dashboard/Dashboard";
 
 const AppContent = () => {
   return (
@@ -31,7 +32,7 @@ const AppContent = () => {
           tabindex="0"
         >
           <Switch>
-            <Route />
+            <Route path="/" component={Dashboard} />
           </Switch>
         </main>
       </div>

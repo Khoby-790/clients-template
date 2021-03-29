@@ -25,7 +25,7 @@ const Dashboard = () => {
                   />
                 </svg>
               </button>
-              <button className="ml-2 bg-indigo-600 text-white px-3 rounded">
+              <button className="ml-2 outline-none opacity-1 focus:outline-none bg-indigo-600 text-white px-3 rounded shadow-md">
                 Add Client
               </button>
             </div>

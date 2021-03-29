@@ -7,7 +7,9 @@ const Dashboard = () => {
         <div className="w-64 border-r h-full bg-gray-200"></div>
         <div className="flex-1 flex flex-col px-3">
           <div className="flex w-full justify-between py-3">
-            <div></div>
+            <div>
+              <h1 className="font-semibold text-2xl">Clients</h1>
+            </div>
             <div className="flex">
               <button className="bg-gray-400 outline-none focus:outline-none p-1 rounded shadow-md">
                 <svg
@@ -25,7 +27,7 @@ const Dashboard = () => {
                   />
                 </svg>
               </button>
-              <button className="ml-2 outline-none opacity-1 focus:outline-none bg-indigo-600 text-white px-3 rounded shadow-md">
+              <button className="ml-2 outline-none opacity-1/2 focus:outline-none bg-indigo-600 text-white px-3 rounded shadow-md">
                 Add Client
               </button>
             </div>
